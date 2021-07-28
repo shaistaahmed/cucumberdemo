@@ -1,0 +1,306 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-28T12:54:24.845Z",
+        "line": 4,
+        "name": "To Test the provided application for assignment",
+        "description": "",
+        "id": "to-validate-login-application-;to-test-the-provided-application-for-assignment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6848000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "You need to be on Website",
+            "match": {
+              "location": "stepDefinition.Definition.you_need_to_be_on_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1664000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Signup link",
+            "match": {
+              "location": "stepDefinition.Definition.click_on_signup_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 209000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter First Name \"Fassignment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fassignment\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.Definition.enter_first_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter Last Name \"Lassignment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lassignment\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.Definition.enter_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter Email Id \"Fassignment@Lassignment.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fassignment@Lassignment.com\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.Definition.enter_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter User Name \"Assignment_Assignment32\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Assignment_Assignment32\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.Definition.enter_user_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter Password \"assignmentassignment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"assignmentassignment\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.Definition.enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter Confirm Password \"assignmentassignment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"assignmentassignment\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.Definition.enter_confirm_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1919000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on Register button",
+            "match": {
+              "location": "stepDefinition.Definition.click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3036000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Successfully Registered message",
+            "match": {
+              "location": "stepDefinition.Definition.successfully_registered_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on right corner dropdown",
+            "match": {
+              "location": "stepDefinition.Definition.click_on_right_corner_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Validate the email Id \"Fassignment@Lassignment.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fassignment@Lassignment.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.Definition.validate_the_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1441000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click on Homepage tab",
+            "match": {
+              "location": "stepDefinition.Definition.click_on_homepage_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2170000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on Compose",
+            "match": {
+              "location": "stepDefinition.Definition.click_on_compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2268000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter Send to address \"naveen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"naveen\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.Definition.enter_send_to_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter the Subject \"Hi This is For Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi This is For Testing\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.Definition.enter_the_subject(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5470000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the Message",
+            "match": {
+              "location": "stepDefinition.Definition.enter_the_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9161000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click on Send Message button",
+            "match": {
+              "location": "stepDefinition.Definition.click_on_send_message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the acknowledgement is shown",
+            "match": {
+              "location": "stepDefinition.Definition.the_acknowledgement_is_shown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate Login Application\u0027",
+    "description": "",
+    "id": "to-validate-login-application-",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login/Login.feature",
+    "tags": []
+  }
+]

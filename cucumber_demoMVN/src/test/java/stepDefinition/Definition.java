@@ -45,6 +45,36 @@ WebDriver driver;
             
             driver.quit();
         }
+        
+        @When("Enter Invalid name {string}")
+        public void enter_invalid_name(String name) {
+            driver.findElement(By.id("txtUsername")).sendKeys(name);
+        }
+
+
+        @When("Enter Invalid password {string}")
+        public void enter_invalid_password(String pwd) {
+            driver.findElement(By.id("txtPassword")).sendKeys(pwd);
+        }
+        
+        @Then("I should see Invalid Credential as {string}")
+        public void i_should_see_invalid_credential_as(String loginName) {
+        	String Actual = driver.findElement(By.xpath("//*[@id='spanMessage']")).getText();
+            String Expected = loginName;
+            Assert.assertEquals(Expected, Actual);
+            System.out.println("Invalid Credentials");
+            driver.quit();
+
+        }
+
+
+
+ 
+
+
+
+
+
 
  
 
