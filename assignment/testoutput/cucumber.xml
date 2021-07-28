@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="35.799">
-<testcase classname="To Validate Login Application'" name="To Test the provided application for assignment" time="35.468">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="66.836">
+<testcase classname="To Validate Login Application" name="To Signup with different data" time="34.627">
 <system-out><![CDATA[Given You need to be on Website.............................................passed
 When Click on Signup link...................................................passed
 And Enter First Name "Fassignment"..........................................passed
 And Enter Last Name "Lassignment"...........................................passed
 And Enter Email Id "Fassignment@Lassignment.com"............................passed
-And Enter User Name "Assignment_Assignment32"...............................passed
+And Enter User Name "Assignment_Assignment33"...............................passed
+And Enter Password "assignmentassignment"...................................passed
+And Enter Confirm Password "assignmentassignment"...........................passed
+And Click on Register button................................................passed
+And Successfully Registered message.........................................passed
+And Click on right corner dropdown..........................................passed
+And Validate the email Id "Fassignment@Lassignment.com".....................passed
+And Click on Homepage tab...................................................passed
+And Click on Compose........................................................passed
+And Enter Send to address "naveen"..........................................passed
+And Enter the Subject "Hi This is For Testing"..............................passed
+And Enter the Message.......................................................passed
+And Click on Send Message button............................................passed
+Then the acknowledgement is shown...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validate Login Application" name="To Signup with different data 2" time="31.96">
+<system-out><![CDATA[Given You need to be on Website.............................................passed
+When Click on Signup link...................................................passed
+And Enter First Name "Fassignment"..........................................passed
+And Enter Last Name "Lassignment"...........................................passed
+And Enter Email Id "Fassignment@Lassignment.com"............................passed
+And Enter User Name "Assignment_Assignment34"...............................passed
 And Enter Password "assignmentassignment"...................................passed
 And Enter Confirm Password "assignmentassignment"...........................passed
 And Click on Register button................................................passed
